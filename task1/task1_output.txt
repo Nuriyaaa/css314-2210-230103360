@@ -1,0 +1,10 @@
+=== TASK 1: Hardware Probe & Serial Baseline ===
+Student ID: 230103360
+Operating System: macOS-26.6.2-arm64-arm-64bit-Mach-O
+CPU Model: Apple M4
+Logical CPU Cores: 10
+Array Size: 20,000,000
+Data Type: float64
+Sum: 9999962.5515397936
+Standard Deviation: 0.2886738093
+Wall-Clock Execution Time: 129.742 ms
