@@ -1,0 +1,27 @@
+=== TASK 7: Arithmetic Intensity vs. Memory Bottlenecks ===
+Student ID: 230103360
+Array elements: 30000000
+Array type: float64
+Logical CPU cores: 10
+Kernels: A = vector copy; B = sin(A)*cos(A)+tan(A)
+
+Kernel A:
+   Cores |       Time (ms) |      Speedup |   Efficiency
+---------------------------------------------------------
+       1 |          37.716 |        1.000 |       100.0%
+       2 |          15.132 |        2.492 |       124.6%
+      10 |           5.912 |        6.380 |        63.8%
+
+Kernel B:
+   Cores |       Time (ms) |      Speedup |   Efficiency
+---------------------------------------------------------
+       1 |         141.482 |        1.000 |       100.0%
+       2 |          72.749 |        1.945 |        97.2%
+      10 |          31.084 |        4.552 |        45.5%
+
+Memory bandwidth analysis:
+Kernel A is the memory-bandwidth-bound candidate. These measurements do not conclusively establish memory channel saturation; compare scaling efficiencies.
+Kernel A max-core efficiency: 63.8%
+Kernel B max-core efficiency: 45.5%
+Verification checksum: 9.0241544460
+Benchmark completed successfully.
