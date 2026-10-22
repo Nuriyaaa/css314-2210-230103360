@@ -4,4 +4,4 @@ Nuriya Sultanseitova - 230103360
 2-N
 08-P
 
-Attempted in 6-P
+Attendent in 6-P
