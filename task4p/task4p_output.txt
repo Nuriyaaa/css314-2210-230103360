@@ -1,0 +1,20 @@
+=== TASK 4: MEMORY TRANSFER PROFILE ===
+Student ID: 230103360
+Method: CPU multiprocessing
+Data type: float64
+
+N = 100,000
+Path A (Pipe + Pickle): 1.652 ms
+Path B (Shared Memory): 0.323 ms
+Verification: PASS
+
+N = 1,000,000
+Path A (Pipe + Pickle): 7.310 ms
+Path B (Shared Memory): 1.006 ms
+Verification: PASS
+
+N = 10,000,000
+Path A (Pipe + Pickle): 81.382 ms
+Path B (Shared Memory): 7.008 ms
+Verification: PASS
+
