@@ -1,0 +1,10 @@
+=== TASK 3: PREFIX SCAN VERIFICATION ===
+Student ID: 230103360
+Array size: 2000000
+Threads: 4
+Serial Time: 2.250 ms
+Parallel Time: 0.922 ms
+Speedup: 2.440x
+Verification Status: PASS
+Serial final sum: 11000541
+Parallel final sum: 11000541
