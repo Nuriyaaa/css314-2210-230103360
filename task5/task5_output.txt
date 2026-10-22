@@ -1,0 +1,17 @@
+=== TASK 5: The Overhead Crossover Point ===
+Student ID: 230103360
+Logical CPU cores: 10
+Operation: y[i] = a * x[i] + b
+Timing statistic: median of 5 runs
+
+           N |     Serial (ms) |   Parallel (ms) |     Faster
+------------------------------------------------------------
+         100 |           0.000 |           0.105 |     Serial
+        1000 |           0.001 |           0.095 |     Serial
+       10000 |           0.002 |           0.096 |     Serial
+      100000 |           0.022 |           0.090 |     Serial
+     1000000 |           0.216 |           0.149 |   Parallel
+CROSSOVER RANGE: N > 100000 and N <= 1000000
+    10000000 |           2.106 |           1.725 |   Parallel
+Verification checksum: 23.250000
+Benchmark completed successfully.
