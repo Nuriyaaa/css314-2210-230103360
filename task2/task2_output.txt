@@ -1,0 +1,21 @@
+=== TASK 2: Multi-Core Scaling vs. Amdahl's Law ===
+Student ID: 230103360
+OS: Darwin
+Logical CPU cores: 10
+Array size: 20,000,000
+Parallelizable fraction (P): 0.95
+
+Running benchmarks...
+
+==================================================================
+   Cores |  Wall Time (ms) |    Speedup | Amdahl Upper Bound
+------------------------------------------------------------------
+       1 |          12.669 |      1.000 |              1.000
+       2 |           2.235 |      5.668 |              1.905
+       4 |           2.250 |      5.632 |              3.478
+      10 |           1.707 |      7.422 |              6.897
+      20 |           1.840 |      6.885 |             10.256
+==================================================================
+
+Sum verification: 9999962.5515397936
+Benchmark completed successfully.
