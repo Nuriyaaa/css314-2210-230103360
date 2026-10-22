@@ -1,0 +1,11 @@
+=== TASK 4: Work Stealing & Scheduling Under Skew ===
+Student ID: 230103360
+Items: 1000 | Workers: 4
+
+Strategy                 |      Total Time |    Completion Delta
+------------------------------------------------------------------
+Static (250 items each)  |      301.726 ms |           11.599 ms
+Dynamic (chunk = 1)      |      297.042 ms |            1.628 ms
+Dynamic (chunk = 5)      |      300.779 ms |           10.430 ms
+
+All benchmark runs completed.
