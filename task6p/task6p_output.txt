@@ -1,0 +1,16 @@
+=== TASK 6: MUTEX VS ATOMIC CAS ===
+Student ID: 230103360
+Threads: 8
+Increments per thread: 1000000
+Total operations: 8000000
+
+Mutex Execution Time: 115.511 ms
+Mutex Throughput: 69257473.22 ops/sec
+Mutex Final Counter: 8000000
+
+Atomic CAS Execution Time: 998.088 ms
+Atomic CAS Throughput: 8015325.31 ops/sec
+Atomic CAS Final Counter: 8000000
+
+Throughput Ratio (CAS / Mutex): 0.116x
+Verification Status: PASS
