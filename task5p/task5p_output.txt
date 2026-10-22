@@ -1,0 +1,19 @@
+=== TASK 5: THREAD OVERSUBSCRIPTION THRESHOLD ===
+Student ID: 230103360
+Logical cores: 10
+CPU-bound tasks: 10000
+Hash rounds per task: 500
+
+ Pool Size |  Execution Time (ms) |    Speedup | Status
+--------------------------------------------------------------------
+         1 |             2692.218 |     1.000x | BASELINE
+         5 |             2662.601 |     1.011x | OK
+        10 |             2655.923 |     1.014x | OK
+        20 |             2690.720 |     1.001x | WORSENING START
+        40 |             2707.795 |     0.994x | OVERSUBSCRIBED
+       160 |             2811.136 |     0.958x | OVERSUBSCRIBED
+       256 |             2849.263 |     0.945x | OVERSUBSCRIBED
+
+First observed worsening pool size: 20
+This is the first measured pool slower than the previous tested size.
+Note: Timing results are system-dependent and may vary between runs.
