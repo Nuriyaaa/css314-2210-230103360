@@ -1,0 +1,10 @@
+=== PRACTICE TASK 1: ROW-MAJOR VS COLUMN-MAJOR ===
+Student ID: 230103360
+Matrix size: 8000 x 8000
+Logical cores: 10
+Physical cores / workers: 10
+Mode A sum: 31998029.5215528831
+Mode B sum: 31998029.5215523057
+Mode A (Row-Major): 13.000 ms
+Mode B (Column-Major / Strided): 30.449 ms
+Cache penalty factor: 2.342x
