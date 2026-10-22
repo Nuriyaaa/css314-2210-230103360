@@ -1,0 +1,18 @@
+=== TASK 6: Synchronization Cost & Data Loss ===
+Student ID: 230103360
+Threads: 4
+Increments per thread: 2000000
+Expected final value: 8000000
+
+Without mutex:
+Actual final value: 2254578
+Lost updates (estimated): 5745422
+Percentage of updates lost: 71.82%
+Wall-clock time: 10.373 ms
+
+With mutex:
+Actual final value: 8000000
+Wall-clock time: 123.272 ms
+Synchronization time penalty: 112.899 ms
+Count verification: PASSED
+Benchmark completed successfully.
