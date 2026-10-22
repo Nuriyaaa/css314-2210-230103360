@@ -1,0 +1,10 @@
+=== TASK 3: Cache Line Contention ===
+Student ID: 230103360
+Physical CPU cores / worker threads: 10
+Increments per thread: 50000000
+
+Unpadded Shared: 127.853 ms
+Local Variable:  0.101 ms
+Execution Ratio (Unpadded / Local): 1265.870x
+
+Count verification: PASSED
