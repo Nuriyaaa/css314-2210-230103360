@@ -1,0 +1,28 @@
+{
+  "cpu_model": "Apple M4",
+  "architecture": "arm64",
+  "physical_cores": 10,
+  "logical_threads": 10,
+  "smt_or_hyperthreading": false,
+  "cache": {
+    "cache_line_bytes": 128,
+    "l1_data_bytes": 65536,
+    "l2_bytes": 4194304,
+    "l3_bytes": null,
+    "l3_note": "No verified shared L3 value obtained from the queried sysctl keys.",
+    "performance_cores": {
+      "l1_data_bytes": 131072,
+      "l2_bytes": 16777216
+    },
+    "efficiency_cores": {
+      "l1_data_bytes": 65536,
+      "l2_bytes": 4194304
+    }
+  },
+  "operating_system": "Darwin",
+  "os_version": "26.6.2",
+  "kernel_version": "25.6.0",
+  "python_implementation": "CPython",
+  "python_version": "3.14.3",
+  "python_executable": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3"
+}
