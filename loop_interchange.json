@@ -1,0 +1,12 @@
+{
+  "student_id": "230103360",
+  "matrix_dimension": 768,
+  "seed": 17981,
+  "runs": 3,
+  "tolerance": 1e-12,
+  "implementation": "Numba njit",
+  "ijk_median_time_ns": 263618875,
+  "ikj_median_time_ns": 56694416,
+  "speedup_ijk_over_ikj": 4.649820804221707,
+  "max_absolute_difference": 0.0
+}
