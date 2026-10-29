@@ -1,0 +1,8 @@
+{
+  "N": 256,
+  "arithmetic_intensity_flops_per_byte_estimate": 0.125,
+  "roofline_classification": "memory-bound estimate",
+  "note": "NumPy stencil benchmark; P values are labels, not actual parallel execution.",
+  "amdahl_serial_fraction": 0.0,
+  "amdahl_max_speedup": null
+}
